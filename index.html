@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Management Tool</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2>Budget Management Tool</h2>
+        <label for="income">Income:</label>
+        <input type="number" id="income" name="income" />
+        <label for="expenseAmount">Expense Amount:</label>
+        <input type="number" id="expenseAmount" name="expenseAmount" />
+        <label for="select">Expense Category:</label>
+        <select id="select">
+          <option></option>
+          <option>Utilities</option>
+        </select>
+        <button id="addExpense">Add Expense</button>
+        <p id="categoryVal">Utilities:$24423.00</p>
+        <p id="totalExpense">Total Expenses:<span></span></p>
+        <button id="calculateBtn">Calculate</button>
+        <p class="savingVal" id="savingVal">Saving:<span>$200</span></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
